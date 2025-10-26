@@ -24,7 +24,7 @@ AI-Career-Counsellor/
 ├── careermap.json            # JSON file mapping interests → careers
 ├── requirements.txt          # Python dependencies
 │
-├── RASA backend/             # Rasa project folder
+├── rasa_backend/             # Rasa project folder
 │   ├── actions/
 │   │   ├── __init__.py       # Marks the folder as a Python package
 │   │   ├── actions.py        # Contains custom chatbot actions
