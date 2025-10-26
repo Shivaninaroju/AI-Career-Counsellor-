@@ -19,8 +19,22 @@ CAREER_MAPPING = {
     "frontend": ["Frontend Developer", "UI/UX Designer"],
     "backend": ["Backend Developer", "Full Stack Developer"],
     "data": ["Data Analyst", "Business Analyst", "BI Developer"],
-    "analytics": ["Data Analyst", "Business Analyst"]
-}
+    "analytics": ["Data Analyst", "Business Analyst"],
+    "singing": ["Music Producer", "Sound Engineer", "Composer"],
+    "videogames": ["Game Developer", "Game Designer", "3D Artist"],
+    "writing": ["Content Writer", "Copywriter", "Editor"],
+    "art": ["Graphic Designer", "Illustrator", "Animator"],
+    "design": ["Graphic Designer", "UI/UX Designer", "Animator"],
+    "marketing": ["Digital Marketer", "SEO Specialist", "Content Strategist"],
+    "business": ["Business Analyst", "Project Manager", "Consultant"],
+    "finance": ["Financial Analyst", "Accountant", "Investment Banker"],
+    "healthcare": ["Nurse", "Medical Technician", "Healthcare Administrator"],
+    "biology": ["Biologist", "Lab Technician", "Research Scientist"],
+    "chemistry": ["Chemist", "Pharmacist", "Lab Technician"],
+    "cloud computing": ["Cloud Engineer", "DevOps Engineer", "Cloud Architect"],
+    "cybersecurity": ["Cybersecurity Analyst", "Security Engineer", "Penetration Tester"],
+    "photography": ["Photographer", "Photo Editor", "Visual Content Creator"]
+    }
 
 class ActionSmartChat:
     def name(self) -> Text:

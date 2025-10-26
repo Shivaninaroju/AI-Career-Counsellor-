@@ -3,20 +3,39 @@ version: "3.1"
 nlu:
   - intent: greet
     examples: |
-      - hi
       - hello
+      - hi
       - hey
       - good morning
+      - good evening
+
+  - intent: goodbye
+    examples: |
+      - bye
+      - goodbye
+      - see you
+      - catch you later
 
   - intent: user_interest
     examples: |
-      - I like programming
-      - I am interested in AI
-      - I love designing
-      - My interest is in data science
+      - I love AI and ML
+      - I like designing things
+      - I enjoy programming
+      - I’m interested in data analysis
+      - I like helping people
+      - I’m passionate about biology
+      - I enjoy solving business problems
 
   - intent: select_career
     examples: |
-      - Suggest a career in AI
-      - What should I do if I like programming?
-      - Recommend a career for me
+      - I choose AI engineer
+      - I pick data scientist
+      - I want to go with web developer
+
+  - intent: faq
+    examples: |
+      - What is a career counselor?
+      - How do you suggest careers?
+      - Who built you?
+      - Can you help me choose a career?
+

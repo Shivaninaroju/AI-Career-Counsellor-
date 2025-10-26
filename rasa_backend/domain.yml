@@ -1,12 +1,30 @@
+version: "3.1"
+
 intents:
-  - user_interest
   - greet
+  - goodbye
+  - user_interest
+  - select_career
   - faq
+
+actions:
+  - action_recommend_career
+  - utter_greet
+  - utter_goodbye
+  - utter_no_career
 
 responses:
   utter_greet:
-    - text: "Hello! How can I assist you today?"
+    - text: "Hey there! 👋 I’m your AI Career Counselor. Tell me about your interests — what fields excite you most?"
 
-actions:
-  - action_smart_chat
+  utter_goodbye:
+    - text: "Goodbye 👋! Keep exploring and stay curious about your career path!"
+
+  utter_no_career:
+    - text: "Hmm… I couldn’t find a perfect career for that interest. Could you tell me a bit more?"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
 

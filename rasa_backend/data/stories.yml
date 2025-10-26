@@ -1,20 +1,11 @@
 version: "3.1"
+
 stories:
-# Greeting story
-- story: greet the bot
-  steps:
-    - intent: greet
-    - action: utter_greet
-
-# Career recommendation story
-- story: recommend career based on interest
-  steps:
-    - intent: user_interest
-    - action: action_recommend_career
-
-# Optional: no career found story
-- story: no career found
-  steps:
-    - intent: user_interest
-    - action: utter_no_career
-
+  - story: recommend career path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: user_interest
+      - action: action_recommend_career
+      - intent: goodbye
+      - action: utter_goodbye
