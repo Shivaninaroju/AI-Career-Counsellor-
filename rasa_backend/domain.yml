@@ -1,0 +1,12 @@
+intents:
+  - user_interest
+  - greet
+  - faq
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+
+actions:
+  - action_smart_chat
+

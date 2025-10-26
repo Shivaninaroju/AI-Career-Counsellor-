@@ -1,0 +1,5 @@
+rasa==3.6.18
+rasa-sdk==3.6.2
+streamlit==1.38.0
+nltk==3.9
+requests==2.31.0

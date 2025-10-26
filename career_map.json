@@ -1,0 +1,21 @@
+{
+"coding": {
+"category": "Technology",
+"careers": [
+{"name": "Software Developer", "description": "Designs and builds software applications.", "skills": ["Python", "Problem Solving"]},
+{"name": "Data Scientist", "description": "Analyzes data to derive insights.", "skills": ["Machine Learning", "Statistics"]}
+]
+},
+"design": {
+"category": "Creative Arts",
+"careers": [
+{"name": "Graphic Designer", "description": "Creates visual content.", "skills": ["Adobe Suite", "Creativity"]}
+]
+},
+"social": {
+"category": "Social Work",
+"careers": [
+{"name": "Counsellor", "description": "Helps people solve personal issues.", "skills": ["Empathy", "Communication"]}
+]
+}
+}

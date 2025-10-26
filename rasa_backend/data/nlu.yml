@@ -1,0 +1,22 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hi
+      - hello
+      - hey
+      - good morning
+
+  - intent: user_interest
+    examples: |
+      - I like programming
+      - I am interested in AI
+      - I love designing
+      - My interest is in data science
+
+  - intent: select_career
+    examples: |
+      - Suggest a career in AI
+      - What should I do if I like programming?
+      - Recommend a career for me
